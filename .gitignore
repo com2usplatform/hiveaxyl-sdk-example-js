@@ -1,0 +1,18 @@
+# General
+.DS_Store
+Thumbs.db
+*.log
+
+# AI tools
+.claude/
+
+# IDE and editors
+.idea/
+.vscode/
+*.swp
+
+# Node tooling
+node_modules/
+
+# SDK packages installed from a local file instead of the registry
+*.tgz

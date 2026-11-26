@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <!-- The URL of this page holds the sign-in answer. Do not send it to other sites as a referrer. -->
+    <meta name="referrer" content="no-referrer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Signing in</title>
+    <link rel="icon" href="data:," />
+    <!-- External files, so a Content Security Policy with style-src 'self' and script-src 'self' allows them. -->
+    <link rel="stylesheet" href="callback.css" />
+    <script src="callback.js"></script>
+  </head>
+  <body>
+    <main>
+      <div class="spinner" aria-hidden="true"></div>
+      <p role="status">Signing in. This window closes by itself.</p>
+      <p class="hint">If this window stays open, close it and return to the game.</p>
+    </main>
+  </body>
+</html>
